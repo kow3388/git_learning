@@ -41,12 +41,13 @@ config的用意可以知道修改文件的人是誰，在多人協作時才知�
    用ls指令查看
    ![ls](ls.png)
    沒有任何檔案
+   
    用ls -a查看
    ![ls_all](ls_all.png)
 
 
 
-2. 將目前修改的文件存入暫存區(staging area)，文建會變更為staged狀態(本章後面會介紹檔案的各個狀態) (指令如下)
+3. 將目前修改的文件存入暫存區(staging area)，文建會變更為staged狀態(本章後面會介紹檔案的各個狀態) (指令如下)
    ```
    git add .
    ```
@@ -54,13 +55,13 @@ config的用意可以知道修改文件的人是誰，在多人協作時才知�
    
    通常將檔案置入staging area就是準備要提交了，暫時不會更動
 
-3. 將暫存區的檔案存入local repository(本地檔案庫) (指令如下)
+4. 將暫存區的檔案存入local repository(本地檔案庫) (指令如下)
    ```
    git commit -m "本次操作說明"
    ```
    此動作可以想成把把以完成放置在旁邊的工作放到書櫃裡
 
-4. 將local repository的內容同步至remote repository(遠端檔案庫) (指令如下)
+5. 將local repository的內容同步至remote repository(遠端檔案庫) (指令如下)
    ```
    git push origin main
    ```
@@ -68,7 +69,7 @@ config的用意可以知道修改文件的人是誰，在多人協作時才知�
    **(之後的章節會對origin和main做說明)**
    可以想像是自己書櫃裡的文件掃描之後上傳至google drive備份
 
-5. 將remote repository的內容同步至local repository (指令如下)
+6. 將remote repository的內容同步至local repository (指令如下)
    ```
    git pull origin main
    ```
