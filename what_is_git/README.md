@@ -47,13 +47,18 @@ config的用意可以知道修改文件的人是誰，在多人協作時才知�
 
 
 
-3. 將目前修改的文件存入暫存區(staging area)，文建會變更為staged狀態(本章後面會介紹檔案的各個狀態) (指令如下)
+3. 將目前修改的文件存入暫存區(staging area，又稱為index或cache)，文建會變更為staged狀態(本章後面會介紹檔案的各個狀態) (指令如下)
    ```
    git add .
    ```
    staging area可以想像成完成了工作先放置在旁邊還沒有放進檔案庫
    
    通常將檔案置入staging area就是準備要提交了，暫時不會更動
+
+   "git add ." 的 "." 表示當前資料夾的所有檔案，也可以只add特定檔案，如下
+   ```
+   git add README.md
+   ```
 
 4. 將暫存區的檔案存入local repository(本地檔案庫) (指令如下)
    ```
