@@ -32,6 +32,7 @@ git show HEAD^1
 	<img src="HEAD_parent.png" alt="HEAD_parent">
 	<figcaption style="text-align: center;">Fig. 2: HEAD parent</figcaption>
 </figure>
+
 因為HEAD的一層有branch，所以HEAD有兩個一級的parent，因此有 "HEAD^1" & "HEAD^2"
 
 "^" 是可以疊加的，表示parent的parent
@@ -48,6 +49,7 @@ git log --graph
 	<img src="git_log_graph.png" alt="graph_complex">
 	<figcaption style="text-align: center;">Fig. 3: git log graph</figcaption>
 </figure>
+
 但其實 "git log"會顯示出詳細資訊，有時我們不會需要知道所有資訊，只是想看提交的樹圖
 
 這時候我們會加入 "--oneline" 顯示較少資訊
