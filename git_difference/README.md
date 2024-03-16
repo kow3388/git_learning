@@ -10,6 +10,7 @@
 	<img src="origin_diff.png" alt="origin_dif">
 	<figcaption style="text-align: center;">Fig. 1: git diff</figcaption>
 </figure>
+
 使用git預設的diff其實蠻不直觀的
 
 因此我建議可以更改diff tool來讓檔案比對更加清楚，要更改diff tool就要用到之前介紹的git config
@@ -32,6 +33,7 @@ git config --global alias.[指令別名] difftool
 	<img src="git_diff_tool.png" alt="diff_tool">
 	<figcaption style="text-align: center;">Fig. 2: diff tool</figcaption>
 </figure>
+
 因此強烈推薦大家更改diff tool
 
 ### Editor
@@ -63,3 +65,4 @@ diff tool的使用方法和diff其實完全一樣，只是顯示工具不同而�
 	<img src="diff_graph.png" alt="diff graph">
 	<figcaption style="text-align: center;">Fig. 3: diff graph</figcaption>
 </figure>
+
