@@ -14,6 +14,7 @@ git有一個特殊指標HEAD，它會指向目前最新的提交，讓git能夠�
 	<img src="commit_node.png" alt="commit_node">
 	<figcaption style="text-align: center;">Fig. 1: commit node</figcaption>
 </figure>
+
 上面這張圖每一個節點都是一個commit，最下面的節點是我們第一次的提交(first commit)，最上面的節點是我們最後一次的提交(last commit)
 
 HEAD會指向目前最新的提交也就是last commit，至於紅色虛線框起來的部份是branch，在後面的章節會說明
