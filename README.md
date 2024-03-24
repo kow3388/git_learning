@@ -5,3 +5,4 @@
 4. [Git_ignore](https://github.com/kow3388/git_learning/tree/main/git_ignore)
 5. [Git_difference](https://github.com/kow3388/git_learning/tree/main/git_difference)
 6. [Git_control_version](https://github.com/kow3388/git_learning/tree/main/git_control_version)
+7. [Git_change_file_dir_name](https://github.com/kow3388/git_learning/tree/main/git_change_file_dir_name)
