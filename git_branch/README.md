@@ -38,3 +38,15 @@ git branch -d branch名稱
 ```
 如此一來就可以在不影響main的情況下完成開發
 
+### Push to remote repository
+因為開發程式通常不是短時間內可以完成，因此我們通常也會將branch推上remote repository共同協作
+
+需要下以下指令來將branch推到remote repository
+```
+git push origin branch名稱
+```
+在remote repository需要merge時則是要去對應的remote repository去merge
+
+通常在遠端merge完後會將結果pull回來更新本地的commit graph，最終結果如下圖
+![branch_graph_example](branch_graph_example.png)
+可以看到有一個branch叉出去，最後又合在一起，表示這個branch開發完畢
