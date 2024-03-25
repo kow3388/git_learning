@@ -7,3 +7,4 @@
 6. [Git_control_version](https://github.com/kow3388/git_learning/tree/main/git_control_version)
 7. [Git_change_file_dir_name](https://github.com/kow3388/git_learning/tree/main/git_change_file_dir_name)
 8. [Git_branch](https://github.com/kow3388/git_learning/tree/main/git_branch)
+9. [Git_merge](https://github.com/kow3388/git_learning/tree/main/git_merge)
