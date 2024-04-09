@@ -11,3 +11,4 @@
 10. [Git_conflict](https://github.com/kow3388/git_learning/tree/main/git_conflict)
 11. [Git_stash](https://github.com/kow3388/git_learning/tree/main/git_stash)
 12. [Git_garbage_collection](https://github.com/kow3388/git_learning/tree/main/git_garbage_collection)
+13. [Git_detached_head](https://github.com/kow3388/git_learning/tree/main/git_detached_head)
