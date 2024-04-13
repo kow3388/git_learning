@@ -72,8 +72,6 @@ config的用意可以知道修改文件的人是誰，在多人協作時才知�
    ```
    將目前本地端的結果推到遠端已達到同步的效果
    
-   **(之後的章節會對origin和main做說明)**
-   
    可以想像是自己書櫃裡的文件掃描之後上傳至google drive備份
 
 7. 將remote repository的內容同步至local repository (指令如下)
